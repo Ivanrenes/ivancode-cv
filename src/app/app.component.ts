@@ -28,8 +28,7 @@ export class AppComponent {
       "roleTitle": "Software Developer",
       "roleDescription" : "Responsible for the improvement of the internal student management system, development of new projects in favor of the automation of internal processes",
       "roleAchievements" : [
-        "Lorem Ipsum",
-        "Lorem Ipsum",
+        "Development processes for customers completed succesfully"
       ],
       "roleSkills": [
         "Python",
