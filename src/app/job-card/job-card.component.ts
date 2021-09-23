@@ -10,6 +10,7 @@ export class JobCardComponent implements OnInit {
   @Input() jobRoleTitle = ""
   @Input() jobRoleDescription = ""
   @Input() jobCompany = ""
+  @Input() jobDuration = ""
   @Input() jobHighlights : string[] = []
   @Input() jobSkills : string[] = []
   @Input() showHighlights : boolean = true;

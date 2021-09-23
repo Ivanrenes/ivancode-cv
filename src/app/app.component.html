@@ -82,7 +82,7 @@
           <p class="mb-0">
             Hi there, my name is Ivan Rodriguez I'm a Colombian🇨🇴
             Software Developer, Web Developer with +1 year of experience in Python, Django, Angular, Javascript,
-            startups, structuring scalable web applications from start,
+            startups, structuring scalable web applications from scratch,
             Expertise building APIs and websites with Django in Python and consuming them with Angular.
             Familiar with automation strategies and quality assurance standards.
             Setting up a fault tolerant, scalable hosting environment using
@@ -113,6 +113,7 @@
                 [jobRoleDescription]="jobs.second.roleDescription"
                 [jobSkills]="jobs.second.roleSkills"
                 [jobHighlights]="jobs.second.roleAchievements"
+                [jobDuration]="jobs.second.jobDuration"
               ></app-job-card>
                 <app-job-card
                   [jobRoleTitle]="jobs.first.roleTitle"
@@ -120,7 +121,9 @@
                   [jobRoleDescription]="jobs.first.roleDescription"
                   [jobSkills]="jobs.first.roleSkills"
                   [jobHighlights]="jobs.first.roleAchievements"
+                 [jobDuration]="jobs.first.jobDuration"
                 ></app-job-card>
+
                 <!--//resume-timeline-item-->
               </div>
               <!--//resume-timeline-->
@@ -211,7 +214,7 @@
                       <div
                         class="progress-bar theme-progress-bar-dark"
                         role="progressbar"
-                        style="width: 95%"
+                        style="width: 90%"
                         aria-valuenow="25"
                         aria-valuemin="0"
                         aria-valuemax="100"
@@ -222,7 +225,7 @@
               <!--//resume-skill-item-->
 
               <div class="resume-skill-item">
-                <h4 class="resume-skills-cat font-weight-bold">Others</h4>
+                <h4 class="resume-skills-cat font-weight-bold">Others tools</h4>
                 <ul class="list-inline">
                   <li class="list-inline-item">
                     <span class="badge bg-secondary badge-pill">DevOps</span>

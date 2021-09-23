@@ -16,6 +16,7 @@ export class AppComponent {
         "Create a students identification software to validate their identity by the security personnel",
         "IT support for administrative personnel"
       ],
+      "jobDuration" : "Jul 2020 - Jan 2021",
       "roleSkills": [
         "PHP",
         "jQuery",
@@ -28,13 +29,14 @@ export class AppComponent {
     "second":{
       "companyName" : "GudarDevs",
       "roleTitle": "Software Developer",
-      "roleDescription" : "Mainly in charge of supporting the projects managed by the company, talking with costumers and translation needs to development tasks",
+      "roleDescription" : "Mainly in charge of supporting the projects managed by the company, talking with costumers and translation product owner needs to development tasks",
       "roleAchievements" : [
         "In charge of build a system where a bus company can place its available buses and people can place orders to ask for your services",
         "Backend support for online game where you can play with a robot anywhere you be",
         "Create strategy for bot's trading",
         "Backend support for an api where you can analyze pokemon cards"
       ],
+      "jobDuration" : "Feb 2021 - Present",
       "roleSkills": [
         "Python",
         "Django",
