@@ -14,11 +14,8 @@
     <p>{{ jobRoleDescription }}</p>
     <div [hidden]="!showHighlights">
       <h4 class="resume-timeline-item-desc-heading font-weight-bold">
-        Achievements:
+        Responsabilities:
       </h4>
-      <p>
-        Algunos de los logros que mas destaco en mi estancia en esta empresa son:
-      </p>
       <ul>
         <li *ngFor="let highlight of jobHighlights">{{ highlight }}</li>
       </ul>

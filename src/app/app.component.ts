@@ -10,25 +10,30 @@ export class AppComponent {
     "first":{
       "companyName" : "Corporación Empresarial de Salamanca",
       "roleTitle": "Software Developer (Intern)",
-      "roleDescription" : "Responsible for the improvement of the internal student management system, development of new projects in favor of the automation of internal processes",
+      "roleDescription" : "In this internship  for the improvement of the internal student management system, development of new projects in favor of the automation of internal processes",
       "roleAchievements" : [
-        "Lorem Ipsum",
-        "Lorem Ipsum",
+        "In charge to support university score platform ",
+        "Create a students identification software to validate their identity by the security personnel",
+        "IT support for administrative personnel"
       ],
       "roleSkills": [
         "PHP",
         "jQuery",
         "Javascript",
         "MySQL",
-        "Dart"
+        "Dart",
+        "Flutter"
       ]
     },
     "second":{
       "companyName" : "GudarDevs",
       "roleTitle": "Software Developer",
-      "roleDescription" : "Responsible for the improvement of the internal student management system, development of new projects in favor of the automation of internal processes",
+      "roleDescription" : "Mainly in charge of supporting the projects managed by the company, talking with costumers and translation needs to development tasks",
       "roleAchievements" : [
-        "Development processes for customers completed succesfully"
+        "In charge of build a system where a bus company can place its available buses and people can place orders to ask for your services",
+        "Backend support for online game where you can play with a robot anywhere you be",
+        "Create strategy for bot's trading",
+        "Backend support for an api where you can analyze pokemon cards"
       ],
       "roleSkills": [
         "Python",
