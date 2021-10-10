@@ -29,9 +29,9 @@ export class AppComponent {
     "second":{
       "companyName" : "GudarDevs",
       "roleTitle": "Software Developer",
-      "roleDescription" : "Mainly in charge of supporting the projects managed by the company, talking with costumers and translation product owner needs to development tasks",
+      "roleDescription" : "Mainly in charge of supporting the projects managed by the company, talking with customers and translation product owner needs to development tasks",
       "roleAchievements" : [
-        "In charge of build a system where a bus company can place its available buses and people can place orders to ask for your services",
+        "In charge of build a system where a bus company can place its available buses and people can place orders to ask for its services",
         "Backend support for online game where you can play with a robot anywhere you be",
         "Create strategy for bot's trading",
         "Backend support for an api where you can analyze pokemon cards"
