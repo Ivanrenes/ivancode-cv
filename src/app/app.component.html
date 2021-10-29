@@ -253,16 +253,10 @@
             </h2>
             <div class="resume-section-content">
               <ul class="list-unstyled resume-awards-list">
-                <li class="mb-2 ps-4 position-relative">
-                  <i
-                    class="resume-award-icon fas fa-trophy position-absolute"
-                    data-fa-transform="shrink-2"
-                  ></i>
-                  <div class="resume-award-name">Python Barranquilla</div>
-                  <div class="resume-award-desc">
-                    3th place in the python league tournament with the presentation "Some curiosities about Django"
-                  </div>
-                </li>
+                <app-awards
+                [awardTitle]="awards.first.awardTitle"
+                [awardDescription]="awards.first.awardDescription">
+                </app-awards>
               </ul>
             </div>
           </section>

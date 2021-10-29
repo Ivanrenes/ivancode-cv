@@ -82,4 +82,10 @@ export class AppComponent {
       "year" : "2018 - 2021"
     },
   }
+  awards = {
+    "first":{
+      "awardTitle" : "Python Barranquilla",
+      "awardDescription" : "3th place in the python league tournament with the presentation 'Some curiosities about Django'"
+    }
+  }
 }
