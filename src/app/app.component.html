@@ -211,8 +211,32 @@
           <section class="resume-section education-section mb-5">
 
           <!--//skills-section-->
-
-          <app-other-tools-bar></app-other-tools-bar>
+          <section class="resume-section education-section mb-5">
+            <h2
+              class="
+                resume-section-title
+                text-uppercase
+                font-weight-bold
+                pb-3
+                mb-3
+              "
+            >
+              Education
+            </h2>
+            <div class="resume-section-content">
+              <ul class="list-unstyled">
+          <app-education-bar
+          [career]="education.first.career"
+          [university]="education.first.university"
+          [year]="education.first.year">
+        </app-education-bar>
+        <app-education-bar
+          [career]="education.second.career"
+          [university]="education.second.university"
+          [year]="education.second.year"></app-education-bar>
+        </ul>
+        </div>
+      </section>
 
           <!--//education-section-->
           <section class="resume-section reference-section mb-5">
