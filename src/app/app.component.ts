@@ -70,5 +70,16 @@ export class AppComponent {
       "widthBar" : 90
     }
   }
-
+  education = {
+    "first":{
+      "career" : "Systems Engineer",
+      "university" : "Corporación Universitaria Empresarial de Salamanca · CUES",
+      "year" : "2021 - present"
+    },
+    "second":{
+      "career" : "Software Developer",
+      "university" : "Corporación Universitaria Empresarial de Salamanca · CUES",
+      "year" : "2018 - 2021"
+    },
+  }
 }

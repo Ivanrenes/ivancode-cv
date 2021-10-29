@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { JobCardComponent } from './job-card/job-card.component';
 import { SkillBarComponent } from './skill-bar/skill-bar.component';
 import { OtherToolsBarComponent } from './other-tools-bar/other-tools-bar.component';
+import { EducationBarComponent } from './education-bar/education-bar.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { OtherToolsBarComponent } from './other-tools-bar/other-tools-bar.compon
     JobCardComponent,
     SkillBarComponent,
     OtherToolsBarComponent,
+    EducationBarComponent,
   ],
   imports: [
     BrowserModule,
