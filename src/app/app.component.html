@@ -260,6 +260,7 @@
               </ul>
             </div>
           </section>
+
           <!--//interests-section-->
           <section class="resume-section language-section mb-5">
             <h2
@@ -275,16 +276,14 @@
             </h2>
             <div class="resume-section-content">
               <ul class="list-unstyled resume-lang-list">
-                <li class="mb-2">
-                  <span class="resume-lang-name font-weight-bold">Spanish</span>
-                  <small class="text-muted font-weight-normal">(Native)</small>
-                </li>
-                <li>
-                  <span class="resume-lang-name font-weight-bold">English</span>
-                  <small class="text-muted font-weight-normal"
-                    >(Professional)</small
-                  >
-                </li>
+                <app-languaje
+                [languaje]="languaje.first.languaje"
+                [level]="languaje.first.level">
+                </app-languaje>
+                <app-languaje
+                [languaje]="languaje.second.languaje"
+                [level]="languaje.second.level">
+                </app-languaje>
               </ul>
             </div>
           </section>

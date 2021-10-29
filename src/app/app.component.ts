@@ -88,4 +88,14 @@ export class AppComponent {
       "awardDescription" : "3th place in the python league tournament with the presentation 'Some curiosities about Django'"
     }
   }
+  languaje = {
+    "first":{
+      "languaje" : "Spanish",
+      "level" : "(Native)"
+    },
+    "second":{
+      "languaje" : "English",
+      "level" : "(Professional)"
+    },
+  }
 }
