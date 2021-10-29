@@ -48,4 +48,27 @@ export class AppComponent {
     }
   }
   title = 'Ivan Rodriguez E';
+  skills = {
+    "first":{
+      "techName" : "JavaScript",
+      "widthBar" : 90
+    },
+    "second":{
+      "techName" : "Angular",
+      "widthBar" : 85
+    },
+    "third":{
+      "techName" : "HTML/CSS/SASS/LESS",
+      "widthBar" : 70
+    },
+    "fourth":{
+      "techName" : "React",
+      "widthBar" : 40
+    },
+    "fifth":{
+      "techName" : "Python/Django",
+      "widthBar" : 90
+    }
+  }
+
 }
