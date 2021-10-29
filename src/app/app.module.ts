@@ -9,6 +9,7 @@ import { OtherToolsBarComponent } from './other-tools-bar/other-tools-bar.compon
 import { EducationBarComponent } from './education-bar/education-bar.component';
 import { AwardsComponent } from './awards/awards.component';
 import { LanguajeComponent } from './languaje/languaje.component';
+import { InterestsComponent } from './interests/interests.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { LanguajeComponent } from './languaje/languaje.component';
     EducationBarComponent,
     AwardsComponent,
     LanguajeComponent,
+    InterestsComponent,
   ],
   imports: [
     BrowserModule,

@@ -98,4 +98,15 @@ export class AppComponent {
       "level" : "(Professional)"
     },
   }
+  interests = {
+    "first":{
+      "interest" : "Singing"
+    },
+    "second":{
+      "interest" : "Dancing Salsa"
+    },
+    "third":{
+      "interest" : "Freestyling (Rap)"
+    }
+  }
 }

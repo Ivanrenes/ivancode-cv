@@ -303,9 +303,15 @@
             </h2>
             <div class="resume-section-content">
               <ul class="list-unstyled">
-                <li class="mb-1">Singing</li>
-                <li class="mb-1">Dancing Salsa</li>
-                <li class="mb-1">Freestyling (Rap)</li>
+                <app-interests
+                [interest]="interests.first.interest">
+              </app-interests>
+              <app-interests
+                [interest]="interests.second.interest">
+              </app-interests>
+              <app-interests
+                [interest]="interests.third.interest">
+              </app-interests>
               </ul>
             </div>
           </section>
